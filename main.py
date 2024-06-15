@@ -25,8 +25,12 @@ def testClick2(marker):
 marker = map_widget.set_marker(51.5074, 0.1278, command = testClick2, text = "London", marker_color_circle="black") 
 # marker1 = map_widget.set_address("colosseo, rome, italy", marker=True, command = testClick)
 # marker2 = map_widget.set_address("Delhi, India", marker=True, command = testClick2)
-'''
-DONT NEED TO USE SET ADDRESS IF USING LATITUDE LONGITUDE
-'''
+
+def add_marker_event(coords):
+    print("Add marker:", coords)
+    new_marker = map_widget.set_marker(coords[0], coords[1], text="new marker")
+    
+
+map_widget.add_right_click_menu_command(label="Add Marker", command=add_marker_event, pass_coords=True)
 
 rootTk.mainloop()
