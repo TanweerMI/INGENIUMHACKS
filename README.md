@@ -12,4 +12,7 @@ The app has to be downloaded onto an Android mobile phone. Turn on location perm
 NOTE: Scripts are contained in the Assets Folder, along with all other code.
 
 ### USAGE OF THE BALSAMIQ PLATFORM (SPONSOR)
-The platform was of great use to us in designing the UI/UX of the app as it provided wireframing functionality. It provided a way for us to envision the app collectively before working on it, saving a lot of time by preventing miscommunication while allowing us to take feedback from other people without difficulty in explaining. Considering the complexity of the project compared to what we've worked on in the past, considering the integration of maps, the Balsamiq platform provided considerable assistance to us.
+The platform was of great use to us in designing the UI/UX of the app as it provided wireframing functionality. It provided a way for us to envision the app collectively before working on it, saving a lot of time by preventing miscommunication while allowing us to take feedback from other people without difficulty in explaining. Considering the complexity of the project compared to what we've worked on in the past, because of the integration of maps, the Balsamiq platform provided considerable assistance to us.
+
+### VIDEO EXPLANATION
+There are two videos that have been submitted relating to the project. One of the videos shows the entry book associated with the markers, along with the process of setting up and saving markers. The other shows the interactive map running on an android device as an apk, showing the capability to recentre using geolocation.
